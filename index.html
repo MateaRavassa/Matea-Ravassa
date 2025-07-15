@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="./styles/style.css" />
+
+  <title>Matea Ravassa</title>
+</head>
+<body>
+
+  <!-- Navbar Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-bordo fw-bold" href="#">Matea Ravassa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-rosa active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-rosa" href="./pages/social.html">Social Media Manager</a></li>
+          <li class="nav-item"><a class="nav-link text-rosa" href="./pages/ugc.html">UGC</a></li>
+          <li class="nav-item"><a class="nav-link text-rosa" href="./pages/web_developer.html">Web Developer</a></li>
+          <li class="nav-item"><a class="nav-link text-rosa" href="./pages/youtube.html">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container mt-5 pt-5">
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6 text-center">
+        <video src="./archivos/video_presentacion.mp4" controls class="w-100 rounded shadow-sm"></video>
+      </div>
+      <div class="col-md-6">
+        <h1>About me</h1>
+        <p>I'm a multidisciplinary creative with a background in Advertising and hands-on experience in content creation.
+        I work as a community manager, combining strategy with storytelling. I capture moments through photography, produce UGC with a natural and relatable tone, and edit videos that connect.
+        Recently, I've stepped into the world of web development—because I believe in constantly expanding my toolkit to bring ideas to life in more dynamic ways.
+        This portfolio is a glimpse into everything I do, and everything I'm building.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-5 text-center">
+    <ul class="list-unstyled mb-2">
+      <li>Number: +54 9 (2991) 511915</li>
+      <li><a href="mailto:matearavassa.cm@hotmail.com" target="_blank">Mail: matearavassa.cm@hotmail.com</a></li>
+    </ul>
+    <p>© 2025 Matea Ravassa. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <section class="container my-5">
+  <h2 class="text-center mb-4">¡Contactame!</h2>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Escribí tu mensaje"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
+
+</body>
+</html>
