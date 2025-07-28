@@ -1,0 +1,21 @@
+nav {
+  ul {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .navbar-brand {
+    color: $color-bordo;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: $color-rosa;
+    
+    &.active {
+      font-weight: bold;
+    }
+  }
+}

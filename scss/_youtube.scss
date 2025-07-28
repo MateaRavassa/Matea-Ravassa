@@ -1,0 +1,50 @@
+.youtube-section {
+  h1, h2 {
+    font-family: $fuente-titulos;
+    color: $color-rosa;
+  }
+
+  article {
+    margin-bottom: 2rem;
+    
+    p {
+      color: $color-negro;
+      margin-bottom: 1rem;
+    }
+    
+    ul:not(.no-bullets) {
+      padding-left: 1.5rem;
+      list-style-type: disc;
+      
+      li {
+        color: $color-negro !important;
+        margin-bottom: 0.5rem;
+        
+        &::marker {
+          color: $color-negro;
+        }
+      }
+    }
+  }
+  
+  .youtube-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    
+    img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  .youtube-link h2 a {
+    color: $color-rosa;
+    
+    &:hover {
+      color: $color-azul;
+    }
+  }
+}

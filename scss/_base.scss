@@ -1,0 +1,88 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: $fuente-principal;
+  background-color: $color-gris-claro;
+  color: $color-rosa;
+  padding-top: $padding-navbar;
+  margin: 0;
+
+  p {
+    text-align: justify;
+    color: $color-negro;
+  }
+}
+
+h1 {
+  font-family: $fuente-titulos;
+  font-size: 3rem;
+  color: $color-rosa;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: $color-rosa;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+p, a, li {
+  font-size: 1rem;
+  color: $color-rosa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-azul;
+  text-decoration: underline;
+}
+
+ul.no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  background-color: $color-bordo;
+  padding: 1.5rem 0;
+  text-align: center;
+
+  p, a, li, .contact-info {
+    color: $color-blanco !important;
+    margin-bottom: 0.5rem;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  p:last-child {
+    text-align: center !important;
+    width: 100%;
+    display: block;
+  }
+}
+
+.contact-info {
+  color: $color-gris-claro;
+  font-size: 1rem;
+}
+
+.btn-rosa {
+  background-color: $color-rosa;
+  border-color: $color-rosa;
+  color: white;
+  
+  &:hover {
+    background-color: darken($color-rosa, 15%);
+    border-color: darken($color-rosa, 15%);
+  }
+}
