@@ -79,7 +79,7 @@ footer {
 .btn-rosa {
   background-color: $color-rosa;
   border-color: $color-rosa;
-  color: white;
+  color: $color-rosa;
   
   &:hover {
     background-color: darken($color-rosa, 15%);

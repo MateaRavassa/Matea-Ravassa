@@ -26,14 +26,4 @@
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
   }
-  
-  .btn-outline-dark {
-    color: $color-rosa;
-    border-color: $color-rosa;
-    
-    &:hover {
-      background-color: $color-rosa;
-      color: white;
-    }
-  }
 }

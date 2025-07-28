@@ -78,7 +78,7 @@ footer p:last-child {
 .btn-rosa {
   background-color: #ff5d8f;
   border-color: #ff5d8f;
-  color: white;
+  color: #ff5d8f;
 }
 .btn-rosa:hover {
   background-color: rgb(255, 16.5, 90.1111111111);
@@ -236,12 +236,4 @@ nav .nav-link.active {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-.webdev-section .btn-outline-dark {
-  color: #ff5d8f;
-  border-color: #ff5d8f;
-}
-.webdev-section .btn-outline-dark:hover {
-  background-color: #ff5d8f;
-  color: white;
 }
