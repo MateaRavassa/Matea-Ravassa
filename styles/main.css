@@ -27,7 +27,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
   color: #ff5d8f;
   font-size: 2rem;
   margin-top: 1rem;
@@ -79,7 +78,7 @@ footer p:last-child {
 .btn-rosa {
   background-color: #ff5d8f;
   border-color: #ff5d8f;
-  color: #ff5d8f;
+  color: white;
 }
 .btn-rosa:hover {
   background-color: rgb(255, 16.5, 90.1111111111);
@@ -209,6 +208,7 @@ nav .nav-link.active {
 }
 .youtube-section .youtube-link h2 a {
   color: #ff5d8f;
+  text-align: center;
 }
 .youtube-section .youtube-link h2 a:hover {
   color: blue;

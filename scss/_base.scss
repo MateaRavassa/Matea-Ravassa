@@ -24,7 +24,6 @@ h1 {
 }
 
 h2 {
-  font-family: $fuente-principal;
   color: $color-rosa;
   font-size: 2rem;
   margin-top: 1rem;
@@ -80,7 +79,7 @@ footer {
 .btn-rosa {
   background-color: $color-rosa;
   border-color: $color-rosa;
-  color: $color-rosa;
+  color: white;
   
   &:hover {
     background-color: darken($color-rosa, 15%);
